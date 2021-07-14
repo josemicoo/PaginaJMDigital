@@ -43,7 +43,7 @@ video {
 }
 
 .fondo-gradient {
-    background: linear-gradient(0deg, #323232 21.29%, #DB43DE 25.44%, #DB43DE 57%, #21DE53 65%, #21DE53 74.29%, #00A4FF 85%, #00A4FF 92.33%, rgba(0, 164, 255, 0) 100%);
+    background: linear-gradient(0deg, #323232 35%, #DB43DE 43%, #DB43DE 57%, #21DE53 65%, #21DE53 74.29%, #00A4FF 85%, #00A4FF 92.33%, rgba(0, 164, 255, 0) 100%);
     height: 5525px;
 }
 
@@ -88,4 +88,47 @@ p {
 .cajaForm {
     background-color: white;
     border-radius: 50px;
+}
+
+.div-form {
+    margin-top: 2% 
+}
+
+.logo-form {
+    width: 75%;
+    
+}
+
+h2 {
+    line-height: 56px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold
+}
+
+.logo-form-container {
+    margin-top: 14%;
+}
+
+.formulario-caja {
+    border-radius: 15px;
+}
+
+label, input, textarea, button {
+    font-family:'Fira Sans', sans-serif ;
+    
+}
+
+input, textarea {
+    box-shadow: 0px 3.65091px 3.65091px rgba(0, 0, 0, 0.25);
+}
+
+button {
+    border-radius: 20px !important;
+    width: 30%;
+    background-color: #00A4FF !important;
+    font-size: 26px !important;
+    font-weight: bold !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 0px solid transparent !important;
+
 }

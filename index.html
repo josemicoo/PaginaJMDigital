@@ -15,7 +15,7 @@
     <link rel="shortcut icon" href="Images/logo_Mesa_de_trabajo_1.ico">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
-  
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap" rel="stylesheet">
     
   </head>
   <body>
@@ -177,27 +177,49 @@
 
 <!--FORMULARIO-->
 
-<div class="container ">
-  <div class="row ">
-    <div class="cajaForm col-8 ">
-      <form>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+<div class="container mt-5 ">
+    <div class="cajaForm div-form row ">
+        <div class="col-8">
+
+          <h1 class="m-3 mt-4">¡Completa con tus datos!</h1>
+          
+          <form class="m-3">
+            <div class="mb-3">
+              
+              <label for="exampleInputEmail1" class="form-label ">Nombre y Apellido</label>
+              <input type="text" class="form-control mb-3 formulario-caja" placeholder="Nombre y Apellido" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text"></div>
+
+              <label for="exampleInputEmail1" class="form-label">Telefono o Movil</label>
+              <input type="text" class="form-control mb-3 formulario-caja" placeholder="Escribi tu numero aquí" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text"></div>
+
+
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" placeholder="Escribí tu dirección de mail aquí" class="form-control formulario-caja" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text mb-3 ">No vamos a compartir tu dirección de correo con nadie, es confidencial ;) </div>
+
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control formulario-caja" placeholder="Escribí tu mensaje aquí" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
+           
+           
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+
         </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+
+          <div class="col-4 text-center logo-form-container">
+            <img src="/Images/logo-original.png" class="logo-form" alt="">
+
+            <h2>José Micó</h2>
+
+            <p>Ciudad Autonoma de Buenos Aires, Argentina</p>
+          </div>
   </div>
-  </div>
+
 </div>
 
     
