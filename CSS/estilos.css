@@ -43,7 +43,7 @@ video {
 }
 
 .fondo-gradient {
-    background: linear-gradient(0deg, #323232 6%, #DB43DE 13%, #DB43DE 43%, #21DE53 50%, #21DE53 65%, #00A4FF 70%, #00A4FF 92.33%, rgba(0, 164, 255, 0) 100%);
+    background: linear-gradient(0deg, #323232 12%, #DB43DE 18%, #DB43DE 43%, #21DE53 52%, #21DE53 65%, #00A4FF 80%, #00A4FF 92.33%, rgba(0, 164, 255, 0) 100%);
     height: 4100px;
 }
 
@@ -133,8 +133,25 @@ button {
 
 }
 
+button:hover {
+    background-color: black !important;
+    color:  #00A4FF !important;
+}
+
+.boton-portfolio {
+    background-color: #FFFF !important;
+    color: #636363;
+    margin-top: 60px;
+}
+
+.boton-portfolio:hover {
+    background-color: #636363 !important;
+    color: white !important;
+    transition: 0.5s;
+}
+
 footer {
-    margin-top: 400px;
+    margin-top: 500px;
 }
 
 .logo-header {
@@ -173,4 +190,51 @@ footer a{
 .boton {
     background-color: #FFFF;
     
+}
+
+.img-bienvenida {
+    width: 100%;
+}
+
+/*QUERIS RESPONSIVE*/
+
+/*Display Chicos (0-560px) */
+
+@media screen and (min-width: 0) and (max-width: 560px) {
+
+    .logo {
+        width: 30%;
+        display: flex;
+        text-align: center !important;
+    }
+
+   .img-bienvenida{
+       width: 100%;
+   }
+
+   .fondo-gradient {
+    background: linear-gradient(0deg, #323232 7%, #DB43DE 12%, #DB43DE 40%, #21DE53 45%, #21DE53 68%, #00A4FF 74%, #00A4FF 92.33%, rgba(0, 164, 255, 0) 100%);
+    height: 6600px;
+    }
+
+    .boton-portfolio {
+        text-align: center !important;
+        width: 300px;
+        margin-top: 50px;
+        align-content: center;
+    }
+
+    .logos-footer {
+        width: 10%;
+        display: inline-block;
+    }
+
+    .logo-header {
+        width: 40%;
+    }
+
+}
+
+@media (min-width: @screen-md-min) {
+  
 }
