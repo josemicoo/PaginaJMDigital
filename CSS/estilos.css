@@ -11,10 +11,19 @@ a {
     font-family:'Montserrat', sans-serif;
     color: #00A4FF !important;
 }
+.nav-link:hover{
+    color: white !important;
+}
+
 
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+}
+
+h5 {
+    font-family: 'Fira Sans', sans-serif;
+
 }
 
 .logo {
